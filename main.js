@@ -7,16 +7,8 @@ let equal = document.querySelector(".equal")
 
 console.log(`The container node: ${container}`);
 
-//container.addEventListener("click", function (event) {
-// container.classList.toggle("kitty-background");
-//});
 
-button.addEventListener("click", function (event) {
-  let newElement = document.createElement("p");
-  let text = document.createTextNode("the button was clicked!");
-  newElement.appendChild(text);
-  footer.appendChild(newElement);
-});
+
 
 let squares = document.querySelectorAll(".square");
 console.log("squares: ", squares);
